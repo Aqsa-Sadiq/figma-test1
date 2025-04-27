@@ -6,7 +6,7 @@ body{
     background-color: white;
 }
 .navbar {
-    background-color: white;
+    background-color: rgb(195, 179, 252);
     color: black;
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@ body{
     padding: 8px;
     display: flex;
     flex-direction: row;
-
+list-style: none;
     
   }
   
@@ -45,9 +45,13 @@ body{
     padding: 8px;
     display: flex;
     flex-direction: row;
+  
   }
 
-
+.button-group{
+  display: flex;
+  gap: 10px;
+}
  
 .btn1{
     background-color:green;
@@ -117,7 +121,8 @@ body{
   }
   .content3{
     text-align: center;
-    margin: 20px;
+    margin: 30px;
+    font-size: 20px;
   }
 
 
@@ -129,7 +134,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin: 10px;
+    margin: 30px;
   }
   
   .card {
@@ -385,11 +390,20 @@ body{
   .testimonial-section {
     padding: 50px;
     text-align: center;
+   
+    
+  }
+  .testimonial-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   
   .testimonial-logo {
-    width: 100px;
+    width: 350px;
     margin-bottom: 20px;
+    height: auto ;
   }
   
   .testimonial-content p {
@@ -398,9 +412,17 @@ body{
     color: #555;
   }
   
-  .testimonial-content h3 {
-    margin-top: 20px;
-    font-size: 1.5rem;
+    .mini-head {
+      text-align: center;  
+      width: 100%;       
+      margin: 0;           
+    }
+  
+ .mini-head h3{
+    
+    font-size: 2.5rem;
+    text-align: center;
+    margin-right: 13px;
   }
   
   .position {
@@ -409,7 +431,7 @@ body{
   }
   
   .partners {
-    margin: 20px 0;
+    margin: 20px 5px;
   }
   
   .partners img {
@@ -434,7 +456,7 @@ body{
   
   .blog-section h2 {
     font-size: 2rem;
-    margin-bottom: 10px;
+  
   }
   
   .blog-section p {
