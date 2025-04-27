@@ -115,8 +115,8 @@ list-style: none;
     background-color: white;
   }
   .image-box img {
-    max-width: 300px;
-    height: auto;
+    max-width: 500px;
+    height: 200px;
     display: block;
   }
   .content3{
@@ -128,7 +128,8 @@ list-style: none;
 
 .logo3{
     align-content: center;
-    margin-left: 75px;
+    margin-left: 70px;
+    width: auto;
 }
 .container {
     display: flex;
